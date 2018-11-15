@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var messageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let welcomeMessage = NSLocalizedString("seasonsGreetings", comment: "Seasons greeting")
+        
+        let attributedText = NSMutableAttributedString(string: welcomeMessage, attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18.0), NSAttributedString.Key.foregroundColor: UIColor.red])
+        
+        messageLabel!.attributedText = attributedText 
     }
 
-
+    
+    
+    
+    
+    
 }
 

@@ -12,6 +12,8 @@
 		42998225219CF99C0090D760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42998223219CF99C0090D760 /* Main.storyboard */; };
 		42998227219CF99E0090D760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42998226219CF99E0090D760 /* Assets.xcassets */; };
 		4299822A219CF99E0090D760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42998228219CF99E0090D760 /* LaunchScreen.storyboard */; };
+		42998239219CFF1D0090D760 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42998237219CFF1D0090D760 /* Localizable.strings */; };
+		42F10977219DBB7300A53B1C /* 1727266_stock-photo-earth-model-from-space-south-america-view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42F10976219DBB7300A53B1C /* 1727266_stock-photo-earth-model-from-space-south-america-view.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,12 @@
 		42998226219CF99E0090D760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42998229219CF99E0090D760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4299822B219CF99E0090D760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42998236219CFD800090D760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		42998238219CFF1D0090D760 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4299823A219D00220090D760 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4299823B219D00220090D760 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4299823C219D00230090D760 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		42F10976219DBB7300A53B1C /* 1727266_stock-photo-earth-model-from-space-south-america-view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1727266_stock-photo-earth-model-from-space-south-america-view.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,24 @@
 		4299821E219CF99C0090D760 /* LocalizationApp */ = {
 			isa = PBXGroup;
 			children = (
+				42998235219CFC560090D760 /* Images */,
 				4299821F219CF99C0090D760 /* AppDelegate.swift */,
 				42998221219CF99C0090D760 /* ViewController.swift */,
 				42998223219CF99C0090D760 /* Main.storyboard */,
 				42998226219CF99E0090D760 /* Assets.xcassets */,
 				42998228219CF99E0090D760 /* LaunchScreen.storyboard */,
 				4299822B219CF99E0090D760 /* Info.plist */,
+				42998237219CFF1D0090D760 /* Localizable.strings */,
 			);
 			path = LocalizationApp;
+			sourceTree = "<group>";
+		};
+		42998235219CFC560090D760 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42F10976219DBB7300A53B1C /* 1727266_stock-photo-earth-model-from-space-south-america-view.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +124,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 42998213219CF99C0090D760;
 			productRefGroup = 4299821D219CF99C0090D760 /* Products */;
@@ -122,9 +141,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42998239219CFF1D0090D760 /* Localizable.strings in Resources */,
 				4299822A219CF99E0090D760 /* LaunchScreen.storyboard in Resources */,
 				42998227219CF99E0090D760 /* Assets.xcassets in Resources */,
 				42998225219CF99C0090D760 /* Main.storyboard in Resources */,
+				42F10977219DBB7300A53B1C /* 1727266_stock-photo-earth-model-from-space-south-america-view.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +168,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				42998224219CF99C0090D760 /* Base */,
+				42998236219CFD800090D760 /* en */,
+				4299823A219D00220090D760 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,8 +178,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				42998229219CF99E0090D760 /* Base */,
+				4299823B219D00220090D760 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		42998237219CFF1D0090D760 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42998238219CFF1D0090D760 /* en */,
+				4299823C219D00230090D760 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -284,6 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LocalizationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LocalizationApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
